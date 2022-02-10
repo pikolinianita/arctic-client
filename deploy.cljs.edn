@@ -1,0 +1,6 @@
+^{:watch-dirs ["test" "src"]
+  :css-dirs ["resources/public/css"]
+   }
+{:main  drawing.core
+ :pseudo-names true ;;bigger file, letter debug
+ :externs ["externs.js"]}
